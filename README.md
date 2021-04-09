@@ -1,5 +1,5 @@
-###### Requirements
+##### Requirements
 `pip install pretty table`
-###### UseUse
+##### Use
 `python3 main.py m n`
 
