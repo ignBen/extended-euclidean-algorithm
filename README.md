@@ -1,2 +1,3 @@
-`pip install prettytable`
-`python3 main.py m n`
+Required: `pip install pretty table`
+To run: `python3 main.py m n`
+
