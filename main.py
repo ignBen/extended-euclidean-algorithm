@@ -18,7 +18,9 @@ def controler():
 		print("Equal")
 
 	print("Such that: m = n * q + r")
-	print(ext_euclid(m,n))
+	table,gcd = ext_euclid(m,n)
+	print(table)
+	print("gcd:",gcd)
 
 
 def formatter(steps):
@@ -62,7 +64,7 @@ def ext_euclid(m,n):
 
 		k += 1
 
-	return formatter(steps)
+	return formatter(steps),steps[-1][1]
 
 controler()
 
